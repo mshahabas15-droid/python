@@ -1,0 +1,13 @@
+d={'name':'A','class':'2','age':'22'}
+print(d)
+d['name']='one'
+d['age']='23'
+print(d)
+print(d['age'])
+print(d['class'])
+d.pop('age')
+print(d)
+d.popitem()
+print(d)
+print(d.items())
+print(d.keys())
